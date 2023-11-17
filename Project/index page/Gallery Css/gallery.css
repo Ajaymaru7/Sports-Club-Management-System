@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*-----Navigation-----*/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 40px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+
+.navbar{
+    background: black;
+}
+
+.navbar-toggler{
+    border: #fff;
+}
+
+
+.nav-link{
+    color: white!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.dropdown{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu:hover{
+    background: #fff;
+}
+
+.dropdown-item:hover{
+    background-color: #fff;
+    background: #007bff1e;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+input{
+    display: none;
+}
+
+
+@keyframes animate{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+.top-content{
+    background-color: lightgray;
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgray;
+}
+
+.top-content h3{
+    height: 100%;
+    background-color: rgb(235, 228, 228);
+    line-height: 60px;
+    padding: 0 50px;
+    margin-bottom: 5px;
+}
+
+label{
+    display: inline-block;
+    height: 100%;
+    margin: 0 20px;
+    line-height: 60px;
+    font-size: 18px;
+    color: black;
+    transition: color .5s; 
+}
+
+label:hover{
+    color: black;
+}
+
+
+.swiper{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 400px;
+}
+
+/*----swiper slide-----*/
+
+  .swiper {
+    position: relative;
+    height: 50%;
+    width: 90%;
+    background: #eee;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
